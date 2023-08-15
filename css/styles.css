@@ -211,8 +211,8 @@ color: var(--ocean-cl);
 
 /*! -------------advantages--------------------------- */
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .visually-hidden {
@@ -230,10 +230,11 @@ overflow: hidden;
 
 .advantages-list {
   display: flex;
-  gap: 24px;
+  gap: 72px;
+  flex-wrap: wrap;
 }
 .advantages-item {
-  width: calc((100% - 3 * 24px )/ 4); 
+  /* width: calc((100% - 3 * 24px )/ 4);  */
 }
 .advantages-item-top {
   width: 100%;
@@ -244,19 +245,21 @@ overflow: hidden;
   border-radius: 4px;
   background: var(--cloud-cl);
   margin-bottom: 8px;
+  display: none;
 }
 .advantages-subtitle {
   color: var(--navy-blue-modal-cl);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
+  text-transform: capitalize;
 }
 .advantages-item-text {
   color: var(--slate-cl);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -264,6 +267,7 @@ overflow: hidden;
 
 .portfolio {
 padding-bottom: 120px;
+display: none;
 }
 .portfolio-title {
   color: var(--navy-blue-modal-cl);
@@ -280,7 +284,6 @@ padding-bottom: 120px;
 .portfolio-list {
   display: flex;
   gap: 24px;
-  
 }
 .portfolio-item {
 display: inline-flex;
@@ -294,8 +297,8 @@ width: calc((100% - 2 * 24px )/ 3);
 /*! -------------team------------------------- */
 .team {
   background-color: var(--cloud-cl);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-title {
   color: var(--navy-blue-modal-cl);
@@ -309,16 +312,18 @@ width: calc((100% - 2 * 24px )/ 3);
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 .team-item {
-  width: calc((100% - 3 * 24px )/ 4); 
+  width: 100%;
+  /* width: calc((100% - 3 * 24px )/ 4);  */
   background-color: var(--white-cl);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  text-align: center;
 }
 .team-img {
-
+  margin: 0 auto;
 }
 
 .team-conteiner {
@@ -375,8 +380,8 @@ width: calc((100% - 2 * 24px )/ 3);
 /*! -------------customers------------------------- */
 .customers {
   background-color: var(--white-cl);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
   color: var(--navy-blue-modal-cl);
@@ -390,11 +395,13 @@ width: calc((100% - 2 * 24px )/ 3);
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px;
 }
 
 .customers-item {
-  width: calc((100% - 5 * 24px )/ 6);
+  width: 100%;
+  /* width: calc((100% - 5 * 24px )/ 6); */
+  width: calc((100% - 16px )/ 2)
 }
 .customers-item-top {
   width: 100%;
@@ -883,3 +890,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
   visibility: hidden;
   pointer-events: none; 
 }
+
+/*! -------------BREK_POINT------------------------- */
+

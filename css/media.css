@@ -1,0 +1,113 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 396px;
+  }
+  .team > .container {
+    max-width: 294px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .advantages-list {
+    padding: 0;
+    gap: 72px 24px;
+  }
+  .advantages-subtitle {
+    text-align: left;
+  }
+  .team > .container {
+    max-width: 582px;
+  }
+  .team-item {
+    width: calc((100% -   24px )/ 2);
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  .customers-item {
+    width: calc((100% - 2 * 24px )/ 3)
+  }
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantages-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  .advantages-item-top {
+    display: flex;
+  }
+  .advantages-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .advantages-item-text {
+  }
+  .portfolio {
+    padding-bottom: 120px;
+    display: flex;
+  }
+  .portfolio-title {
+    color: var(--navy-blue-modal-cl);
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .portfolio-list {
+    display: flex;
+    gap: 24px;
+  }
+  .portfolio-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc((100% - 2 * 24px) / 3);
+  }
+  .team > .container {
+    max-width: 1158px;
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-item {
+  width: calc((100% - 3 * 24px )/ 4);
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-item {
+  width: calc((100% - 5 * 24px )/ 6);
+}
+.customers-list {
+  gap: 24px
+}
+}
