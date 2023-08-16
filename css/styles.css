@@ -170,6 +170,13 @@ color: var(--ocean-cl);
   background-position: center;
   background-size: cover;
 }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-mobile-2x.jpg); 
+  }
+}
 
 
 .hero-title {
