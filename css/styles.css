@@ -164,23 +164,26 @@ color: var(--ocean-cl);
   max-width: 1440px;
   margin: 0 auto;
   background-color: var(--navy-blue-modal-cl);
-  padding: 188px 0px; 
   background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.hero-conteiner {
+  padding: 112px 54px;
+}
+
 .hero-title {
   color: var(--white-cl);
   text-align: center;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
-  max-width: 496px;
+  max-width: 320px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 72px;
 }
 .hero-btn {
   background-color: var(--iris-cl);
