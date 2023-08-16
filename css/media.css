@@ -2,9 +2,6 @@
   .container {
     max-width: 396px;
   }
-  .hero-conteiner {
-    max-width: 428px;
-  }
 
   .team > .container {
     max-width: 294px;
@@ -15,10 +12,12 @@
   .container {
     max-width: 736px;
   }
-  .hero-conteiner {
+  .hero {
     max-width: 768px;
     padding: 112px 136px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/Hero-bg-tab.jpg);
   }
+ 
   .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -58,6 +57,21 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+  .hero {
+    max-width: 1440px;
+    padding: 188px 472px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
+  }
+  
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 48px;
   }
   .advantages {
     padding-top: 120px;
