@@ -58,8 +58,14 @@
   .customers-list {
     gap: 72px 24px;
   }
-  
+  .footer-conteiner {
+    max-width: 736px;
+    align-items: baseline;
+  }
+  .footer-container-one{
+    margin-right: 24px;
 
+  }
 
 
 }
