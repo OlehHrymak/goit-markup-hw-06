@@ -18,15 +18,6 @@
   .container {
     max-width: 736px;
   }
-   .header-navigation {
-     display: flex;
-     align-items: center;
-   }
-   .header-conteiner {
-     display: flex;
-     align-items: center;
-   }
-   
    .header-logo {
    margin-right: 120px;
    }
@@ -40,10 +31,9 @@
 
    .header-address-list {
      display: flex;
-     gap: 40px;
+     flex-direction: column;
+     gap: 12px;
    }
-   }
-
   .hero {
     max-width: 768px;
     padding: 112px 136px;
@@ -114,6 +104,21 @@
   .container {
     max-width: 1158px;
   }
+   .header-logo {
+   margin-right: 76px;
+   }
+   
+   .header-menu-list {
+    display: flex;
+    } 
+    .menu-open-btn {
+     display: none;
+    }
+    .header-address-list {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+   }
   .hero {
     max-width: 1440px;
     padding: 188px 472px;
