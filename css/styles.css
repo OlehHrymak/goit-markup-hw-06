@@ -536,21 +536,25 @@ width: calc((100% - 2 * 24px )/ 3);
 /*! -------------footer------------------------- */
 .footer {
   background-color: var(--navy-blue-modal-cl);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 97.5px;
+  padding-bottom: 96px;
 }
 .footer-conteiner {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-container-one{
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  margin-bottom: 72px;
 }
 
 .footer-conteiner-two {
-  margin-right: 80px;
+  /* margin-right: 80px; */
+  margin-bottom: 72px;
 }
 .footer-conteiner-form {
 }
@@ -567,12 +571,14 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+display: flex;
+justify-content: center;
 }
 .footer-input-label {
 }
 
 .footer-input {
-width: 264px;
+width: 396px;
 height: 40px;
 border-radius: 4px;
 border: 1px solid var(--white, #FFF);
@@ -581,7 +587,7 @@ background-color: transparent;
 font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-padding-left: 16px;
+padding-bottom: 16px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
 color: var(--white-cl);
 
@@ -597,10 +603,10 @@ color: var(--white-cl);
   font-style: normal;
   font-weight: 800;
   line-height: 1.17; 
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03;
   text-transform: uppercase;
-  max-width: 115px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin-bottom: 16px;
 }
 .footer-logo-accent {
@@ -611,7 +617,7 @@ color: var(--white-cl);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  max-width: 268px;
 }
 .footer-container-logo {
   display: flex;
@@ -628,6 +634,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--white-cl);
 margin-bottom: 16px;
+display: flex;
+justify-content: center;
 }
 
 .footer-social-list {
@@ -657,7 +665,7 @@ margin-bottom: 16px;
 }
 
 .footer-btn {
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   border-radius: 4px;
   background-color: var(--iris-cl); 
@@ -672,6 +680,7 @@ margin-bottom: 16px;
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
+  margin: auto;
 }
 .footer-btn-icon {
   margin-left: 16px;
