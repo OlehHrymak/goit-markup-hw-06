@@ -1,3 +1,9 @@
+@media screen and (min-width: 320px) {
+  .mob-menu-social-top {
+    gap: 28px;
+  }
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 396px;
@@ -12,6 +18,32 @@
   .container {
     max-width: 736px;
   }
+   .header-navigation {
+     display: flex;
+     align-items: center;
+   }
+   .header-conteiner {
+     display: flex;
+     align-items: center;
+   }
+   
+   .header-logo {
+   margin-right: 120px;
+   }
+   
+   .header-menu-list {
+   display: flex;
+   } 
+   .menu-open-btn {
+    display: none;
+   }
+
+   .header-address-list {
+     display: flex;
+     gap: 40px;
+   }
+   }
+
   .hero {
     max-width: 768px;
     padding: 112px 136px;
@@ -61,13 +93,21 @@
   .footer-conteiner {
     max-width: 736px;
     align-items: baseline;
+    flex-direction: row;
   }
   .footer-container-one{
     margin-right: 24px;
 
   }
+  .footer-logo {
+    display: inline-block;
+  }
 
-
+  .footer-form {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1158px) {
