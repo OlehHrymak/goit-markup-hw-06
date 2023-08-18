@@ -80,7 +80,7 @@
   .customers-list {
     gap: 72px 24px;
   }
-  .footer-conteiner {
+  /* .footer-conteiner {
     max-width: 736px;
     align-items: baseline;
     flex-direction: row;
@@ -97,7 +97,7 @@
     display: flex;
     gap: 24px;
     flex-direction: row;
-  }
+  } */
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -206,4 +206,29 @@
 .customers-list {
   gap: 24px
 }
+/* .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-conteiner {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer-container-one{
+  margin-right: 120px;
+  margin-bottom: 0px;
+}
+
+.footer-conteiner-two {
+  margin-right: 80px;
+  margin-bottom: 0px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+} */
 }
